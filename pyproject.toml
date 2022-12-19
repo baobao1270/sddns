@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sddns"
+version = "2.0.0-rc2"
+description = "Build DNS records by Python scripts"
+authors = ["Joseph Chris <joseph@josephcz.xyz>"]
+readme = "README.md"
+keywords = ["dns"]
+license = "MIT"
+repository = "https://github.com/baobao1270/sddns.git"
+documentation = "https://github.com/baobao1270/sddns-template"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+octodns = "^0.9.21"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
